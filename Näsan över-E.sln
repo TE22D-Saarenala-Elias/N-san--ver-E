@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steg 1", "Steg 1\Steg 1.csproj", "{BA0DCE12-30E3-4AA7-B95E-D7375D45F2AA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Steg 2", "Steg 2", "{FB0DA4D9-087A-4F48-894B-158B2AE55320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steg 2", "Steg 2\Steg 2\Steg 2.csproj", "{52591113-8E4F-40AB-AADD-0C6F4FA940D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{BA0DCE12-30E3-4AA7-B95E-D7375D45F2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA0DCE12-30E3-4AA7-B95E-D7375D45F2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA0DCE12-30E3-4AA7-B95E-D7375D45F2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52591113-8E4F-40AB-AADD-0C6F4FA940D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52591113-8E4F-40AB-AADD-0C6F4FA940D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52591113-8E4F-40AB-AADD-0C6F4FA940D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52591113-8E4F-40AB-AADD-0C6F4FA940D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52591113-8E4F-40AB-AADD-0C6F4FA940D2} = {FB0DA4D9-087A-4F48-894B-158B2AE55320}
 	EndGlobalSection
 EndGlobal
